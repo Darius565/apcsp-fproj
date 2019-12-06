@@ -1,4 +1,4 @@
-TARGET = hellomake
+TARGET = Final-1-22-20
 LIBS = -lm
 CC = gcc
 CFLAGS = -g -Wall -I.
