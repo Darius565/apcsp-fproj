@@ -2,32 +2,7 @@
 <html>
   <head>
     <title>Morse Translator</title>
-	<style>
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-     body {
-        background-color: green;
-}
-
-     h1 {
-        color: white;
-        text-align: center;
-        font-family: arial;
-        font-size: 300%;
-}
-
-     p {
-        font-family: verdana;
-        font-size: 20px;
-        font-size: 80%;
-}
-	</style>
-
-  </head>
-
-
+	<link rel="stylesheet" type="text/css" href="morseLight.css" />
   <body>
 
     <h1>C Project - Morse Translator</h1>
