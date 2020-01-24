@@ -419,7 +419,7 @@ arg++;
 
   for (int num=0; num<10; num++){
     char ch = *argv[1];
-    if (writeGPIO(GPIO4_PATH "value", "1")){
+    if (GPIO_PATH == 1){
 	counter = counter + 1;
 	printf("The light has flashed %d times\n", counter);
      }
