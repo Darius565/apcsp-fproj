@@ -410,10 +410,6 @@ void c(){
   }
 int main(int argc, char* argv[]){
 int counter = 0;
-if (writeGPIO(GPIO4_PATH "value", "1")){
-	counter = counter + 1;
-	printf("The light has flashed %d times\n", counter);
-}
 int arg = 0;
 while (arg < argc)
 {
@@ -423,6 +419,10 @@ arg++;
 
   for (int num=0; num<10; num++){
     char ch = *argv[1];
+    if (writeGPIO(GPIO4_PATH "value", "1")){
+	counter = counter + 1;
+	printf("The light has flashed %d times\n", counter);
+     }
     switch (ch)
     {
       case 'a':
